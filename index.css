@@ -1,0 +1,77 @@
+﻿
+@media all {
+    * {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+    header {
+        margin: 1em 0em 2em 0em;
+    }
+    header h2 {
+        font-size: 2em;
+    }
+    header h4 {
+        font-size: 1.25em;
+    }
+    section {
+        margin: 2em auto;
+        clear: both;
+        width: 100%;
+    }
+    section h2 {
+        text-align: center;
+        font-size: 2.0em;
+    }
+    .create-task-section {
+        width: 80%;
+        margin: 0px auto;
+    }
+    .create-task-form {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .form-div {
+        margin: 1em auto;
+    }
+    .form-div * {
+        width: 100%;
+        font-size: 1.25em;
+    }
+    .form-div input, .form-div textarea {
+        font-size: 1.50em;
+        padding: 0.25em;
+        border: 0.0625em solid black;
+    }
+    .btn {
+        padding: 1em;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+    }
+    .btn-submit {
+        background: green;
+    }
+    .btn-cancel {
+        background: red;
+    }
+    .center-text {
+        text-align: center;
+    }
+}
+@media all and (max-width:640px){
+    header h2 {
+        font-size: 1.75em;
+    }
+    header h4 {
+        font-size: 1.0em;
+    }
+}
+@media all and (max-width:320px){
+    header h2 {
+        font-size: 1.75em;
+    }
+    header h4 {
+        font-size: 1.0em;
+    }
+}
